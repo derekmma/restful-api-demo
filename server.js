@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
-app.post('/api', function(request, response){
+app.get('/api', function(request, response){
     response.send('working');
 });
 
